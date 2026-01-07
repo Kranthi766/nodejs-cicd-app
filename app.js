@@ -6,7 +6,7 @@ const app = express();
  * This is the main application URL
  */
 app.get('/', (req, res) => {
-  res.send('🚀 Node.js app is running successfully on AWS EC2!');
+  res.send('🚀 Version 3: Auto-deployed via CI/CD!');
 });
 
 /**
